@@ -13,28 +13,32 @@
   <h2>Por favor, confirmar asistencia:</h2>
 
   <form class="formulario">
-    Nombre <input type="text" name="name" id="name">
-    <br />
-    Edad <input type="number" name="age" id="age">
-    <br />
+    Nombre
+     <input type="text" name="nombre" id="nombre"> <!--Se cambian los ID de ingles a español-->
+    <br>
+    Edad <input type="number" name="edad" id="edad"><!--Se cambian los ID de ingles a español-->
+    <br>
 
     Nacionalidad
-    <select name="nationality" id="nationality">
+    <br>
+    <select name="nacionalidad" id="nacionalidad">
       <option value="ar">Argentina</option>
       <option value="mx">Mexicana</option>
       <option value="per">Peruana</option>
       <option value="vnzl">Venezolana</option>
     </select>
-    <br />
+    <br>
     <input type="submit">
   </form>
 
   <div>
     <h2>Lista de invitados</h2>
-
+    <ul id="elemento-lista"></ul><!--Se agregó esta lista-->
   </div>
+  
+  
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script>
 </body>
 
 </html>
